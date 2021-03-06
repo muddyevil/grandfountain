@@ -23,8 +23,8 @@ p {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #fcbfb7;
-    color: #2a4d14;
+    background-color: #fe8ee4;
+    color: #930707;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -37,7 +37,7 @@ p {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #f6f5ae;
+    background-color: #10abb1;
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -50,8 +50,8 @@ p {
   }
 
   .inneraccordion {
-    background-color: #fcbfb7;
-    color: #2a4d14;
+    background-color: #fe8ee4;
+    color: #930707;
     cursor: pointer;
     padding: 18px;
     width: 90%;
@@ -64,7 +64,7 @@ p {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .inneraccordion:hover {
-    background-color: #f6f5ae;
+    background-color: #10abb1;
   }
   
   /* Style the accordion panel. Note: hidden by default */
