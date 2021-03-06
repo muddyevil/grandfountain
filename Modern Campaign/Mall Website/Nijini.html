@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="nijini.css">
+</head>
+<body>
+
+<div class="header">
+<img src="../Shop Logos/Nijini.png" />
+
+<div class="header-text">
+<h1>Nijini Books and Cafe</h1>
+<p>Herydark and Yasara are partners in business and in life. Nijini is their second business venture after the highly successful Niji. Nijini combines Yasara's love of books with Herydark's love of cooking to create an establishment for everyone to enjoy.</p>
+</div>
+</div>
+
+<button class="accordion">Books</button>
+<div class="panel">
+  <p>All books are priced individually, if they are not please bring it to the counter and she will tell you.</p>
+</div>
+
+<button class="accordion">Spellbooks</button>
+<div class="panel">
+    <table>
+        <tbody>
+        <tr>
+        <td><b>Cantrip</b></td>
+        <td>50gp</td>
+        </tr>
+        <tr>
+            <td><b>Level 1</b></td>
+            <td>100gp</td>
+            </tr>
+            <tr>
+                <td><b>Level 2</b></td>
+                <td>250gp</td>
+                </tr>
+                <tr>
+                    <td><b>Level 3</b></td>
+                    <td>500gp</td>
+                    </tr>
+                    <tr>
+                        <td><b>Level 4</b></td>
+                        <td>1000gp</td>
+                        </tr>
+                        <tr>
+                            <td><b>Level 5</b></td>
+                            <td>2500gp</td>
+                            </tr>
+                            <tr>
+                                <td><b>Level 6</b></td>
+                                <td>3000gp</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Level 7</b></td>
+                                    <td>4000gp</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Level 8</b></td>
+                                        <td>5000gp</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Level 9</b></td>
+                                            <td>10,000gp</td>
+                                            </tr>
+        </tbody>
+        </table>
+</div>
+
+<button class="accordion">Language Books</button>
+<div class="panel">
+    <table>
+        <tbody>
+        <tr>
+        <td><b>Texbooks (Basic Fluency)</b></td>
+        <td>5gp</td>
+        </tr>
+        <tr>
+            <td><b>8 Week Course (Conversational Fluency)</b></td>
+            <td>150gp</td>
+            </tr>
+            <tr>
+                <td><b>26 Week Course (Native Fluency)</b></td>
+                <td>250gp</td>
+                </tr>
+        </tbody>
+        </table>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+var inneracc = document.getElementsByClassName("inneraccordion");
+var i;
+
+for (i = 0; i < inneracc.length; i++) {
+  inneracc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var innerpanel = this.nextElementSibling;
+    if (innerpanel.style.display === "block") {
+      innerpanel.style.display = "none";
+    } else {
+      innerpanel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

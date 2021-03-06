@@ -1,0 +1,38 @@
+h1 {
+    font-size: 69px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    width: 99%;
+    padding: auto;
+    justify-content: center;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 3px;
+}
+
+img {
+    width: 99%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+    display: inline;
+}
+
+  }

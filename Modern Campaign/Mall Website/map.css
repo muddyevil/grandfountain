@@ -1,0 +1,70 @@
+.back, .gym, .tattoo, .jewel, .books, .sahuna, .ikea, .davos, .adventure, .pawn {
+    width: 4em;
+    height: 4em;
+}
+
+.back {
+    background-color: papayawhip;
+}
+
+.row {
+    width: 28em;
+    background-color: cadetblue;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#map {
+    width: 95%;
+    background-color: palevioletred;
+    border: 1px solid goldenrod;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.gym {
+    background-color: #005082;
+}
+
+.tattoo {
+    background-color: #823514;
+}
+
+.jewel {
+    background-color: #FE8EE4;
+}
+
+.books {
+    background-color: #F46036;
+}
+
+.sahuna {
+    background-color: #104F55;
+}
+
+.ikea {
+    background-color: #998000;
+}
+
+.davos {
+    background-color: #9CC8C9;
+}
+
+.adventure {
+    background-color: #01B2BA;
+}
+
+.pawn {
+    background-color: #495679;
+}
